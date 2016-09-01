@@ -26,10 +26,12 @@ Key functions for each step:
 	- Step 3) a) bool getMax (vector <token> postfix, long double &maximum);
         	- b) bool calculate_postfix (vector <token> postfix, map <string, int> mapValue, long double &output); 
 
-Complexity: N denotes the length of algebraic string, M denotes the number of variables in the algebraic expression. 
+Complexity: 
 	- Step 1) O(N), where 0<N<=1000.
 	- Step 2) O(N).
 	- Step 3) O(2^M*N), where 0<M<=26.
+
+N denotes the length of algebraic string, M denotes the number of variables in the algebraic expression. 
 
 key structures: stack (in the form of vector), map
 key float type: long double (128-bit on author's computer) is used for algebraic computation. 
