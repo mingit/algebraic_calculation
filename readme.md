@@ -1,9 +1,9 @@
-Author: Ming Li, ming.li@aalto.fi
+*Author: Ming Li, ming.li@aalto.fi
 Date: July 2016
 Programming environment: Ubuntu 16.04, g++(-std=c++11)
 Editor: vim
 
-//Exercise requirement
+*Exercise requirement
 Task: calculate maximum value of a string algebraic expression 
 
 Input: String containing an algebraic expression consisting of lowercase letters a, b, …, z, parentheses (, ), and operations +, –, *, /, ^. (The operation ^ is exponentiation, not xor.) The length of input string is limited by 1000.
@@ -16,8 +16,9 @@ Example output for example input: 4.0.
 
 You are allowed to produce error messages instead of an answer if by some reason task is unsolvable for the given input.
 
-//Compile and Run
+*Compile and Run
 Compile: make or run g++ -std=c++11 cal_algebraic.cpp -o run
+
 Run: ./bin/cal_algebraic
 
 //Solution:
