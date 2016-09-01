@@ -55,7 +55,7 @@ A valid input should contain at least one variable.
 //Compile and Run
 Compile: g++ -std=c++11 cal_algebraic_expression.cpp -o run
 Run: ./run
-
+ 
 //Test
 	- all expressions in file "pretest.dat" and "test.dat" were tested.
 
