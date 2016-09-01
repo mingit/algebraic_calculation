@@ -15,7 +15,7 @@ Example output for example input: 4.0.
 
 You are allowed to produce error messages instead of an answer if by some reason task is unsolvable for the given input.
 
-//Solution:
+Solution:
 	- Step 1) Change string algebraic to infix. 
 	- Step 2) Convert infix to postfix.
 	- Step 3) Traverse all substitutions of variables in postfix and find the maximum output.
@@ -39,7 +39,7 @@ Take input from the file "test.dat", where each line denotes a string algebraic 
 
 A valid input should contain at least one variable.
 
-*INVALID input examples include:
+INVALID input examples include:
 	- "(aa+b)"
 	- "((a-b)"
 	- "a+-b"
@@ -58,8 +58,8 @@ Output:
 	- std::cerr: output error information, e.g., invalid algebraic expression.
 
 Compile:
-	- g++ -std=c++11 src/cal_algebraic.cpp -o bin/cal_algebraic
-	- or make
+	- g++ -std=c++11 src/cal_algebraic.cpp -o bin/cal_algebraic (or make)
+
 Run:
 	- ./bin/cal_algebraic
  
