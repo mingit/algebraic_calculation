@@ -17,8 +17,8 @@ Example output for example input: 4.0.
 You are allowed to produce error messages instead of an answer if by some reason task is unsolvable for the given input.
 
 //Compile and Run
-Compile: g++ -std=c++11 cal_algebraic.cpp -o run
-Run: ./run
+Compile: make or run g++ -std=c++11 cal_algebraic.cpp -o run
+Run: ./bin/cal_algebraic
 
 //Solution:
 Step 1) Change string algebraic to infix. 
